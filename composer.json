@@ -1,6 +1,6 @@
 {
     "name": "contao-components/ace",
-    "type": "component",
+    "type": "contao-component",
     "description": "ACE code editor integration for Contao Open Source CMS",
     "license": "BSD-3-Clause",
     "authors": [
@@ -10,13 +10,6 @@
         }
     ],
     "require": {
-        "robloach/component-installer": "~0.0"
-    },
-    "extra": {
-        "component": {
-            "files": [
-                "js/*"
-            ]
-        }
+        "contao-components/installer": "~1.0"
     }
 }
